@@ -74,3 +74,62 @@ div a{
     text-transform: capitalize;
 }
 
+
+/*
+
+
+main-inicio
+
+
+*/
+
+.main-inicio{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template: repeat(4,1fr)/repeat(4,1fr);
+    background-image: url(../assets/img/messi-cabra.jpg);
+    background-position-x: 1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.messi-hero{
+    display: flex;
+    grid-column: 4/5;
+    grid-row: 1/5;
+}
+
+.messi-hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-right: 1rem;
+}
+
+.main-inicio section{
+    display: flex;
+    grid-column: 2/4;
+    grid-row: 1/5;
+    color: goldenrod;
+}
+
+.subTitulo{
+    font-family: "Goudy Bookletter 1911", serif;
+    text-align: center;
+    font-size: 2.8125rem;
+    text-transform: capitalize;
+    padding-left: 1rem;
+}
+
+.info-goat{
+    font-size: 1.25rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-content: center;
+    text-align: center;
+}
+
+
+
