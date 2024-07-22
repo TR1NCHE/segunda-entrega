@@ -50,3 +50,27 @@ nav{
     color: goldenrod;
     font-size: 25px;
 }
+
+footer{
+    background-color: black;
+}
+
+footer p{
+    font-family: "Goudy Bookletter 1911", serif;
+    color: goldenrod;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+div{
+    text-align: center;
+}
+
+div a{
+    font-family: "Goudy Bookletter 1911", serif;
+    text-decoration: none;
+    color: goldenrod;
+    text-transform: capitalize;
+}
+
