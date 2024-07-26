@@ -204,3 +204,79 @@ main-biografia
     height: 100%;
     object-fit: cover;
 }
+
+/*
+
+
+main-barcelona
+
+
+*/
+
+
+.main-barcelona{
+    width: 100%;
+    height: 1500px;
+    display: grid;
+    grid-template: repeat(6,1fr)/repeat(6,1fr);
+    background-color: black;
+}
+
+.section-barsa{
+    grid-column: 3/7;
+    color: goldenrod;
+    padding-right: 1rem;
+    justify-content: center;
+}
+
+.section-barsa dl dt{
+    justify-items: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: lighter;
+    padding-bottom: 15px;
+    padding-left: 80px;
+}
+
+.section-barsa dl dd{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.messi-debut{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-left: 1rem;
+}
+
+.messi-cincocero{
+    grid-column: 3/4;
+    grid-row: 2/5;
+    color: white;
+    order: 1;
+}
+
+.messi-cincocero h3{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.messi-debut img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-barsa{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column: 3/5;
+    grid-row: 2/5;
+    order: 0;
+}
+
+.video-cincocero{
+    grid-row: 3/4;
+    padding-left: 16px;
+}
