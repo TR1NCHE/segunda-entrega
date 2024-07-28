@@ -119,13 +119,13 @@ main-inicio
 .subTitulo{
     font-family: "Goudy Bookletter 1911", serif;
     text-align: center;
-    font-size: 2.8125rem;
+    font-size: 2rem;
     text-transform: capitalize;
     padding-left: 1rem;
 }
 
 .info-goat{
-    font-size: 1.25rem;
+    font-size: 1rem;
     padding-left: 100px;
     padding-right: 100px;
     align-content: center;
@@ -134,6 +134,19 @@ main-inicio
 
 dl{
     padding-top: 50px;
+}
+
+.btn-group{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    padding: 40px 30px;
+    margin-left: 14px;
+    gap: 8px;
+}
+
+.btn{
+    color: goldenrod;
+    border: solid 1px goldenrod;
 }
 
 
@@ -464,7 +477,7 @@ main-galardones
 }
 
 .section-colectivo ul li{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: lighter;
     font-family: "Goudy Bookletter 1911", serif;
 }
@@ -495,7 +508,7 @@ main-galardones
 }
 
 .section-individual ul li{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: lighter;
     font-family: "Goudy Bookletter 1911", serif;
 }
