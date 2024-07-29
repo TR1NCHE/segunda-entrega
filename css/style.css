@@ -524,7 +524,12 @@ responsive
 
 */
 
-
+@media (max-width:1440px){
+    .messi-massia{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
 
 @media (max-width:1024px){
     .navBar li a{
@@ -549,7 +554,10 @@ responsive
     .btn-group{
         padding: 90px 90px;
         display: table-column;
-        
+    }
+
+    .messi-massia{
+        margin-top: -12rem;
     }
 }
 
@@ -605,6 +613,43 @@ responsive
 
     .messi-hero img{
         padding-right: 0rem;
+    }
+
+    .main-biografia{
+        grid-template: repeat(4,1fr)/repeat(2,1fr);
+    }
+
+    .messi-niño{
+        grid-column: 1/2;
+        grid-row: 1/3;
+        padding-left: 1rem;
+    }
+
+
+    .messi-massia{
+        grid-row: 3/5;
+        grid-column: 2/3;
+        padding-bottom: 0rem;
+        padding-right: 1rem;
+    }
+
+    .messi-newell{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .messi-newell h2{
+        font-size: 15px;
+    }
+
+    .messi-barsa{
+        grid-row: 3/5;
+        grid-column: 1/2;
+    }
+
+    .messi-barsa h2{
+        font-size: 15px;
+        padding-bottom: 0rem;
     }
 }
 
